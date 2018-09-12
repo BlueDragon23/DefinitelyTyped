@@ -152,7 +152,7 @@ export interface Messages {
     showMore?: (count: number) => string;
 }
 
-export interface BigCalendarProps<T extends Event = Event> extends React.Props<BigCalendar<T>> {
+export interface BigCalendarProps<T extends Event = Event> {
     date?: stringOrDate;
     now?: Date;
     view?: View;
